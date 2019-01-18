@@ -1,0 +1,20 @@
+body {
+  background-image: url("motorcycles.jpg");
+}
+
+.form-control {
+  width: 60%;
+}
+
+.jumbotron {
+  text-align: center;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  top: 75%;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+if($_post="input1"){
+      $testData[2] = array(
+            'PartName'	=> "Luggage box",
+            'Quantity'	=> 200,
+            'Price'    => "input1"
+   );
+};
+function AddToArray ($post_information) {
+    //Create the return array
+    $return = array();
+    //Iterate through the array passed
+    foreach ($post_information as $key => $value) {
+        //Append the key and value to the array, e.g.
+            //$_POST['keys'] = "values" would be in the array as "keys"=>"values"
+        $return[$key] = $value;
+    }
+    //Return the created array
+    return $return;
+}
+function newData() {
+    if(isset($_POST))
+    {
+        $name = $_POST['name'];
+        $quantity = $_POST['quantity'];
+        $price = $_POST['price'];
+    }
+}
